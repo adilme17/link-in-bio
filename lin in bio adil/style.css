@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, #CDFEFF, #EFCDFF);
+    text-align: center;
+}
+.alldiv {
+    width: 100%;
+    height: 160vh;
+}
+
+.bodiv {
+    width: 700px;
+    height: 160vh;
+    /* background-color: aqua; */
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.header {
+    text-align: center;
+}
+
+.glpic {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.galcc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bggalo {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    z-index: 1;
+    margin-left: -25px;
+}
+
+.bi-patch-check-fill {
+    margin-left: 5px;
+    color: rgb(0, 132, 255);
+    z-index: 2;
+}
+
+.shior {
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.allicons {
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+}
+
+.allicons a {
+    color: black;
+    margin: 0 5px 0 5px;
+    transition: all 0.3s ease;
+}
+
+.allicons a:hover {
+    color: gray;
+}
+
+
+/* main */
+.main {
+    width: 100%;
+    height: 50vh;
+    margin-top: 10px;
+    /* background-color: gray; */
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* buttonlar */
+.btnsicon {
+    text-align: left;
+    width: 300px;
+    height: 70px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    margin: 10px;
+    transition: 0.3s ease;
+}
+.btnsicon:hover{
+    background-color: rgb(207, 207, 207);
+}
+.btnsicon img {
+    width: 70px;
+
+}
+
+.btnsicon a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 30px;
+    margin: auto;
+    font-weight: bold;
+
+}
+
+.fotter{
+    margin: auto;
+    width: 80%;
+    height: 60px;
+    border-top: 2px solid black;
+    padding-top: 10px;
+}
+.fotter a{
+    color: black;
+    transition: 0.3s ease;
+}
+.fotter a:hover{
+    color: blueviolet;
+}
